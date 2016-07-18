@@ -15,31 +15,38 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
+        </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <!-- section -->
         <header>
             <nav>
-            <ul class="hautdroite">
-                <a class="" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-                <a href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=U3Z_V8zaBIqka83xkvgM&ved=0EKouCBQoAQ">Images</a>
-                <button type="button" name="button">connexion</button>
-                <figure><img src="img/grid.png" alt="carré" /></figure>
-            </ul>
+                <ul class="hautdroite">
+                    <li><a class="" href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+                    <li><a href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=U3Z_V8zaBIqka83xkvgM&ved=0EKouCBQoAQ">Images</a></li>
+                    <li><button type="button" name="button">connexion</button></li>
+                    <li><figure><img src="img/grid.png" alt="carré" /></figure></li>
+                </ul>
             </nav>
         </header>
+        <!--/header  -->
+        <!-- section-->
+
         <section>
             <figure>
                 <img src="img/imagegoogle.png" alt="image de google"/>
             </figure>
-            <input type="search" name="name" value="">
-            <button type="button" name="button">Recherche Google</button>
-            <button type="button" name="button">J'ai de la chance</button>
+            <input class="search" type="search" name="name" value="">
+            <div class="blockbutton">
+                <button  type="button" name="button">Recherche Google</button>
+                <button type="button" name="button">J'ai de la chance</button>
+            </div>
         </section>
+        <!--footer  -->
         <footer>
             <ul class="basgauche">
               <a href="#">publicité</a>
@@ -50,10 +57,10 @@
             <ul class="basdroite">
                 <a href="#">Confidentialité</a>
                 <a href="#">Conditions</a>
-                <a href="#">Paramètre</a>
+                <a href="#">Paramètres</a>
             </ul>
         </footer>
-
+        <!-- /footer -->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
